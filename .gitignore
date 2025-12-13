@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+.venv/
+env/
+pose_venv/
+
+# Model weights (files lớn - cân nhắc dùng Git LFS)
+# weights/*.onnx
+# weights/*.pth
+# weights/*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Test/Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Data (uncomment nếu file lớn)
+# data/test_videos/*.mp4
+# data/reference_poses/*.npy
+
+# Output
+output/
+results/
+*.mp4
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
